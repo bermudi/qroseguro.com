@@ -31,7 +31,7 @@ export default function HowItWorks() {
             return (
               <div key={step.id} className="relative">
                 {index < steps.length - 1 && (
-                  <div className="hidden lg:block absolute top-1/2 right-0 w-full h-0.5 bg-blue-200 transform translate-y-[-50%] translate-x-[50%]" />
+                  <div className="hidden lg:block absolute top-1/2 right-0 w-full h-0.5 bg-blue-200 transform translate-y-[-800%] translate-x-[56%]" />
                 )}
                 <div className="relative z-10 text-center">
                   <div className="w-16 h-16 mx-auto bg-blue-100 rounded-full flex items-center justify-center mb-4">
