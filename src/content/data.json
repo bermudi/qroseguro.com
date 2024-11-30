@@ -2,7 +2,42 @@
   "hero": {
     "title": "Secure Access Management for Modern Communities",
     "subtitle": "Transform your gated community's security with our innovative QR code-based access control system",
-    "ctaText": "Get Started"
+    "ctaText": "Get Started",
+    "ctaSecondaryText": "Learn More"
+  },
+  "nav": {
+    "links": [
+      {
+        "id": "home",
+        "label": "Home",
+        "url": "#"
+      },
+      {
+        "id": "features",
+        "label": "Features",
+        "url": "#features"
+      },
+      {
+        "id": "how-it-works",
+        "label": "How It Works",
+        "url": "#how-it-works"
+      },
+      {
+        "id": "about",
+        "label": "About Us",
+        "url": "#about"
+      },
+      {
+        "id": "support",
+        "label": "Support",
+        "url": "#support"
+      },
+      {
+        "id": "contact",
+        "label": "Contact",
+        "url": "#contact"
+      }
+    ]
   },
   "features": [
     {
@@ -82,6 +117,82 @@
       "icon": "activity"
     }
   ],
+  "about": {
+    "title": "About QRoseguro",
+    "subtitle": "Securing Communities Through Innovation",
+    "description": "QRoseguro was founded with a simple mission: to make community access management secure, efficient, and user-friendly. Our team of security experts and software engineers work tirelessly to develop solutions that protect communities while enhancing resident experience.",
+    "team": [
+      {
+        "id": "team",
+        "name": "Our Team",
+        "role": "Expert Leadership",
+        "description": "Led by security industry veterans and technology experts with decades of combined experience in access control systems.",
+        "icon": "users"
+      },
+      {
+        "id": "mission",
+        "name": "Our Mission",
+        "role": "Clear Purpose",
+        "description": "To provide state-of-the-art access management solutions that prioritize security without compromising convenience.",
+        "icon": "shield"
+      },
+      {
+        "id": "commitment",
+        "name": "Our Commitment",
+        "role": "24/7 Support",
+        "description": "24/7 dedication to maintaining the highest standards of security and providing exceptional support to our clients.",
+        "icon": "clock"
+      }
+    ]
+  },
+  "support": {
+    "title": "Support Center",
+    "subtitle": "We're Here to Help",
+    "topics": [
+      {
+        "id": "getting-started",
+        "title": "Getting Started",
+        "description": "New to QRoseguro? Check our quick start guides and tutorials.",
+        "icon": "book-open"
+      },
+      {
+        "id": "technical-help",
+        "title": "Technical Support",
+        "description": "Having technical issues? Our support team is ready to assist.",
+        "icon": "tool"
+      },
+      {
+        "id": "faq",
+        "title": "FAQs",
+        "description": "Find answers to commonly asked questions about our system.",
+        "icon": "help-circle"
+      },
+      {
+        "id": "training",
+        "title": "Training Resources",
+        "description": "Access our library of training materials and webinars.",
+        "icon": "graduation-cap"
+      }
+    ],
+    "contactInfo": {
+      "email": "support@qroseguro.com",
+      "phone": "(555) 123-4567",
+      "hours": "Monday - Friday, 9:00 AM - 6:00 PM EST"
+    }
+  },
+  "contact": {
+    "title": "Ready to Secure Your Community?",
+    "subtitle": "Get started with QRoseguro today",
+    "ctaText": "Schedule a Demo",
+    "ctaSubtext": "Or call us at (555) 123-4567",
+    "form": {
+      "namePlaceholder": "Your Name",
+      "emailPlaceholder": "Your Email",
+      "subjectPlaceholder": "Subject",
+      "messagePlaceholder": "Your Message",
+      "submitText": "Send Message"
+    }
+  },
   "sections": [
     {
       "id": "how-it-works",
@@ -113,12 +224,6 @@
       "answer": "Yes, our system can be integrated with most existing access control hardware through our API."
     }
   ],
-  "contact": {
-    "title": "Ready to Secure Your Community?",
-    "subtitle": "Get started with QRoseguro today",
-    "ctaText": "Schedule a Demo",
-    "ctaSubtext": "Or call us at (555) 123-4567"
-  },
   "footer": {
     "sections": [
       {
@@ -131,14 +236,14 @@
             "url": "#features"
           },
           {
-            "id": "pricing",
-            "label": "Pricing",
-            "url": "#pricing"
+            "id": "how-it-works",
+            "label": "How It Works",
+            "url": "#how-it-works"
           },
           {
             "id": "demo",
             "label": "Request Demo",
-            "url": "#demo"
+            "url": "#contact"
           }
         ]
       },

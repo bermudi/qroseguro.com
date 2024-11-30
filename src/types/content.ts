@@ -44,6 +44,21 @@ export interface FooterSection {
   links: FooterLink[];
 }
 
+export interface TeamMember {
+  id: string;
+  name: string;
+  role: string;
+  description: string;
+  icon: string;
+}
+
+export interface SupportTopic {
+  id: string;
+  title: string;
+  description: string;
+  icon: string;
+}
+
 export interface ContentData {
   sections: Section[];
   features: Feature[];
@@ -52,17 +67,48 @@ export interface ContentData {
     title: string;
     subtitle: string;
     ctaText: string;
+    ctaSecondaryText: string;
   };
   statistics: Statistic[];
   steps: Step[];
-  footer: {
-    sections: FooterSection[];
-    bottomText: string;
+  about: {
+    title: string;
+    subtitle: string;
+    description: string;
+    team: TeamMember[];
+  };
+  support: {
+    title: string;
+    subtitle: string;
+    topics: SupportTopic[];
+    contactInfo: {
+      email: string;
+      phone: string;
+      hours: string;
+    };
   };
   contact: {
     title: string;
     subtitle: string;
     ctaText: string;
     ctaSubtext: string;
+    form: {
+      namePlaceholder: string;
+      emailPlaceholder: string;
+      subjectPlaceholder: string;
+      messagePlaceholder: string;
+      submitText: string;
+    };
+  };
+  footer: {
+    sections: FooterSection[];
+    bottomText: string;
+  };
+  nav: {
+    links: {
+      id: string;
+      label: string;
+      url: string;
+    }[];
   };
 }

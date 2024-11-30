@@ -51,6 +51,18 @@ class ContentManager {
   public getFooter() {
     return this.content.footer;
   }
+
+  public getNav() {
+    return this.content.nav;
+  }
+
+  public getAbout() {
+    return this.content.about;
+  }
+
+  public getSupport() {
+    return this.content.support;
+  }
 }
 
 export default ContentManager.getInstance();

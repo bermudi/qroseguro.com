@@ -1,4 +1,5 @@
 import React from 'react';
+import contentManager from '../../utils/contentManager';
 
 const links = [
   { name: 'Home', href: '#' },
@@ -10,17 +11,19 @@ const links = [
 ];
 
 export default function NavLinks() {
+  const { links: navLinks } = contentManager.getNav();
+
   return (
-    <nav className="hidden md:flex space-x-8">
-      {links.map((link) => (
+    <div className="hidden md:flex md:gap-x-6">
+      {navLinks.map((link) => (
         <a
-          key={link.name}
-          href={link.href}
-          className="text-gray-600 hover:text-blue-600 transition-colors font-medium"
+          key={link.id}
+          href={link.url}
+          className="text-gray-900 hover:text-blue-600 transition-colors"
         >
-          {link.name}
+          {link.label}
         </a>
       ))}
-    </nav>
+    </div>
   );
 }
