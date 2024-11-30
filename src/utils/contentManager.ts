@@ -44,6 +44,10 @@ class ContentManager {
     return this.content.steps;
   }
 
+  public getSectionContent(sectionId: string) {
+    return this.content.sectionContent[sectionId];
+  }
+
   public getContact() {
     return this.content.contact;
   }

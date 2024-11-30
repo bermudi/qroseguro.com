@@ -11,16 +11,17 @@ const iconMap: { [key: string]: React.ComponentType<{ className?: string }> } = 
 
 export default function HowItWorks() {
   const steps = contentManager.getSteps();
+  const content = contentManager.getSectionContent('howItWorks');
 
   return (
     <section id="how-it-works" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            How It Works
+            {content.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Get started with QRoseguro in four simple steps
+            {content.subtitle}
           </p>
         </div>
 

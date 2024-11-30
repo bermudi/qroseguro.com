@@ -5,6 +5,11 @@ export interface Section {
   order: number;
 }
 
+export interface SectionContent {
+  title: string;
+  subtitle: string;
+}
+
 export interface Feature {
   id: string;
   title: string;
@@ -61,6 +66,7 @@ export interface SupportTopic {
 
 export interface ContentData {
   sections: Section[];
+  sectionContent: { [key: string]: SectionContent };
   features: Feature[];
   faqs: FAQ[];
   hero: {

@@ -15,16 +15,17 @@ export default function Features() {
     ...feature,
     Icon: iconMap[feature.icon] || Monitor
   }));
+  const content = contentManager.getSectionContent('features');
 
   return (
     <section id="features" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Powerful Features for Modern Access Control
+            {content.title}
           </h2>
           <p className="text-xl text-gray-600 max-w-2xl mx-auto">
-            Everything you need to manage access to your community efficiently and securely
+            {content.subtitle}
           </p>
         </div>
         

@@ -1,40 +1,40 @@
 {
   "hero": {
-    "title": "Secure Access Management for Modern Communities",
-    "subtitle": "Transform your gated community's security with our innovative QR code-based access control system",
-    "ctaText": "Get Started",
-    "ctaSecondaryText": "Learn More"
+    "title": "Gestión de Acceso Seguro para Comunidades Modernas",
+    "subtitle": "Transforme la seguridad de su comunidad cerrada con nuestro innovador sistema de control de acceso basado en códigos QR",
+    "ctaText": "Comenzar",
+    "ctaSecondaryText": "Aprender Más"
   },
   "nav": {
     "links": [
       {
         "id": "home",
-        "label": "Home",
+        "label": "Inicio",
         "url": "#"
       },
       {
         "id": "features",
-        "label": "Features",
+        "label": "Características",
         "url": "#features"
       },
       {
         "id": "how-it-works",
-        "label": "How It Works",
+        "label": "Cómo Funciona",
         "url": "#how-it-works"
       },
       {
         "id": "about",
-        "label": "About Us",
+        "label": "Acerca de Nosotros",
         "url": "#about"
       },
       {
         "id": "support",
-        "label": "Support",
+        "label": "Soporte",
         "url": "#support"
       },
       {
         "id": "contact",
-        "label": "Contact",
+        "label": "Contacto",
         "url": "#contact"
       }
     ]
@@ -42,26 +42,26 @@
   "features": [
     {
       "id": "qr-generation",
-      "title": "Dynamic QR Codes",
-      "description": "Generate secure, time-sensitive QR codes for visitors and service providers",
+      "title": "Códigos QR Dinámicos",
+      "description": "Genere códigos QR seguros y con límite de tiempo para visitantes y proveedores de servicios",
       "icon": "qr-code"
     },
     {
       "id": "real-time",
-      "title": "Real-time Monitoring",
-      "description": "Track all entries and exits in real-time with detailed logging",
+      "title": "Monitoreo en Tiempo Real",
+      "description": "Rastree todas las entradas y salidas en tiempo real con registro detallado",
       "icon": "monitor"
     },
     {
       "id": "resident-portal",
-      "title": "Resident Portal",
-      "description": "Easy-to-use interface for residents to manage visitor access",
+      "title": "Portal de Residentes",
+      "description": "Interfaz fácil de usar para que los residentes administren el acceso de los visitantes",
       "icon": "users"
     },
     {
       "id": "security",
-      "title": "Enhanced Security",
-      "description": "Advanced encryption and security measures to prevent unauthorized access",
+      "title": "Seguridad Mejorada",
+      "description": "Medidas de cifrado y seguridad avanzadas para evitar el acceso no autorizado",
       "icon": "shield"
     }
   ],
@@ -69,217 +69,227 @@
     {
       "id": "communities",
       "value": "500+",
-      "label": "Communities",
-      "description": "Trusted by hundreds of gated communities worldwide"
+      "label": "Comunidades",
+      "description": "Confiado por cientos de comunidades cerradas en todo el mundo"
     },
     {
       "id": "residents",
       "value": "50k+",
-      "label": "Residents",
-      "description": "Serving thousands of satisfied residents"
+      "label": "Residentes",
+      "description": "Sirviendo a miles de residentes satisfechos"
     },
     {
       "id": "access-events",
       "value": "1M+",
-      "label": "Access Events",
-      "description": "Securely processed access events monthly"
+      "label": "Eventos de Acceso",
+      "description": "Eventos de acceso procesados de forma segura mensualmente"
     },
     {
       "id": "uptime",
       "value": "99.9%",
-      "label": "Uptime",
-      "description": "Reliable system availability"
+      "label": "Tiempo de actividad",
+      "description": "Disponibilidad confiable del sistema"
     }
   ],
   "steps": [
     {
       "id": "register",
-      "title": "Register Your Community",
-      "description": "Set up your community profile and customize access settings",
+      "title": "Registre su Comunidad",
+      "description": "Configure el perfil de su comunidad y personalice la configuración de acceso",
       "icon": "building"
     },
     {
       "id": "invite",
-      "title": "Invite Residents",
-      "description": "Add residents and assign them appropriate access levels",
+      "title": "Invitar Residentes",
+      "description": "Agregue residentes y asígneles los niveles de acceso apropiados",
       "icon": "users"
     },
     {
       "id": "generate",
-      "title": "Generate QR Codes",
-      "description": "Create secure QR codes for visitors and service providers",
+      "title": "Generar Códigos QR",
+      "description": "Cree códigos QR seguros para visitantes y proveedores de servicios",
       "icon": "qr-code"
     },
     {
       "id": "monitor",
-      "title": "Monitor Access",
-      "description": "Track and manage all access events through your dashboard",
+      "title": "Monitorear Acceso",
+      "description": "Rastree y administre todos los eventos de acceso a través de su panel",
       "icon": "activity"
     }
   ],
   "about": {
-    "title": "About QRoseguro",
-    "subtitle": "Securing Communities Through Innovation",
-    "description": "QRoseguro was founded with a simple mission: to make community access management secure, efficient, and user-friendly. Our team of security experts and software engineers work tirelessly to develop solutions that protect communities while enhancing resident experience.",
+    "title": "Acerca de QRoseguro",
+    "subtitle": "Asegurando Comunidades a Través de la Innovación",
+    "description": "QRoseguro fue fundado con una misión simple: hacer que la gestión del acceso a la comunidad sea segura, eficiente y fácil de usar. Nuestro equipo de expertos en seguridad e ingenieros de software trabajan incansablemente para desarrollar soluciones que protejan a las comunidades al tiempo que mejoran la experiencia de los residentes.",
     "team": [
       {
         "id": "team",
-        "name": "Our Team",
-        "role": "Expert Leadership",
-        "description": "Led by security industry veterans and technology experts with decades of combined experience in access control systems.",
+        "name": "Nuestro Equipo",
+        "role": "Liderazgo Experto",
+        "description": "Dirigido por veteranos de la industria de la seguridad y expertos en tecnología con décadas de experiencia combinada en sistemas de control de acceso.",
         "icon": "users"
       },
       {
         "id": "mission",
-        "name": "Our Mission",
-        "role": "Clear Purpose",
-        "description": "To provide state-of-the-art access management solutions that prioritize security without compromising convenience.",
+        "name": "Nuestra Misión",
+        "role": "Propósito Claro",
+        "description": "Proporcionar soluciones de gestión de acceso de vanguardia que prioricen la seguridad sin comprometer la comodidad.",
         "icon": "shield"
       },
       {
         "id": "commitment",
-        "name": "Our Commitment",
-        "role": "24/7 Support",
-        "description": "24/7 dedication to maintaining the highest standards of security and providing exceptional support to our clients.",
+        "name": "Nuestro Compromiso",
+        "role": "Soporte 24/7",
+        "description": "Dedicación 24/7 para mantener los más altos estándares de seguridad y brindar un soporte excepcional a nuestros clientes.",
         "icon": "clock"
       }
     ]
   },
   "support": {
-    "title": "Support Center",
-    "subtitle": "We're Here to Help",
+    "title": "Centro de Soporte",
+    "subtitle": "Estamos Aquí para Ayudar",
     "topics": [
       {
         "id": "getting-started",
-        "title": "Getting Started",
-        "description": "New to QRoseguro? Check our quick start guides and tutorials.",
+        "title": "Primeros Pasos",
+        "description": "¿Nuevo en QRoseguro? Consulte nuestras guías de inicio rápido y tutoriales.",
         "icon": "book-open"
       },
       {
         "id": "technical-help",
-        "title": "Technical Support",
-        "description": "Having technical issues? Our support team is ready to assist.",
+        "title": "Soporte Técnico",
+        "description": "¿Tiene problemas técnicos? Nuestro equipo de soporte está listo para ayudar.",
         "icon": "tool"
       },
       {
         "id": "faq",
-        "title": "FAQs",
-        "description": "Find answers to commonly asked questions about our system.",
+        "title": "Preguntas Frecuentes",
+        "description": "Encuentre respuestas a las preguntas más frecuentes sobre nuestro sistema.",
         "icon": "help-circle"
       },
       {
         "id": "training",
-        "title": "Training Resources",
-        "description": "Access our library of training materials and webinars.",
+        "title": "Recursos de Capacitación",
+        "description": "Acceda a nuestra biblioteca de materiales de capacitación y seminarios web.",
         "icon": "graduation-cap"
       }
     ],
     "contactInfo": {
       "email": "support@qroseguro.com",
       "phone": "(555) 123-4567",
-      "hours": "Monday - Friday, 9:00 AM - 6:00 PM EST"
+      "hours": "Lunes - Viernes, 9:00 AM - 6:00 PM EST"
     }
   },
   "contact": {
-    "title": "Ready to Secure Your Community?",
-    "subtitle": "Get started with QRoseguro today",
-    "ctaText": "Schedule a Demo",
-    "ctaSubtext": "Or call us at (555) 123-4567",
+    "title": "¿Listo para Asegurar su Comunidad?",
+    "subtitle": "Comience con QRoseguro hoy",
+    "ctaText": "Programar una Demo",
+    "ctaSubtext": "O llámenos al (555) 123-4567",
     "form": {
-      "namePlaceholder": "Your Name",
-      "emailPlaceholder": "Your Email",
-      "subjectPlaceholder": "Subject",
-      "messagePlaceholder": "Your Message",
-      "submitText": "Send Message"
+      "namePlaceholder": "Su Nombre",
+      "emailPlaceholder": "Su Correo Electrónico",
+      "subjectPlaceholder": "Asunto",
+      "messagePlaceholder": "Su Mensaje",
+      "submitText": "Enviar Mensaje"
     }
   },
   "sections": [
     {
       "id": "how-it-works",
-      "title": "How It Works",
-      "content": "Our system simplifies community access management through secure QR codes. Residents can generate temporary access codes for visitors, while security personnel can quickly validate entries using our mobile app.",
+      "title": "Cómo Funciona",
+      "content": "Nuestro sistema simplifica la gestión del acceso a la comunidad a través de códigos QR seguros. Los residentes pueden generar códigos de acceso temporales para los visitantes, mientras que el personal de seguridad puede validar rápidamente las entradas utilizando nuestra aplicación móvil.",
       "order": 1
     },
     {
       "id": "benefits",
-      "title": "Benefits",
-      "content": "Enhance security, reduce administrative overhead, and provide a seamless experience for residents and visitors alike. Our system maintains detailed access logs and provides real-time notifications.",
+      "title": "Beneficios",
+      "content": "Mejore la seguridad, reduzca la sobrecarga administrativa y proporcione una experiencia fluida para residentes y visitantes por igual. Nuestro sistema mantiene registros detallados de acceso y proporciona notificaciones en tiempo real.",
       "order": 2
     }
   ],
+  "sectionContent": {
+    "features": {
+      "title": "Increíbles funciones para el control de acceso moderno",
+      "subtitle": "Todo lo que necesita para gestionar el acceso a su comunidad de forma eficiente y segura"
+    },
+    "howItWorks": {
+      "title": "Cómo Funciona",
+      "subtitle": "Comience con QRoseguro en cuatro sencillos pasos"
+    }
+  },
   "faqs": [
     {
       "id": "visitor-access",
-      "question": "How do visitors get access?",
-      "answer": "Residents can generate temporary QR codes through their portal and share them with visitors via email or message."
+      "question": "¿Cómo obtienen acceso los visitantes?",
+      "answer": "Los residentes pueden generar códigos QR temporales a través de su portal y compartirlos con los visitantes por correo electrónico o mensaje."
     },
     {
       "id": "security-measures",
-      "question": "How secure is the system?",
-      "answer": "We use advanced encryption and time-based validation to ensure QR codes cannot be duplicated or reused beyond their intended timeframe."
+      "question": "¿Qué tan seguro es el sistema?",
+      "answer": "Utilizamos cifrado avanzado y validación basada en el tiempo para garantizar que los códigos QR no se puedan duplicar o reutilizar más allá de su plazo previsto."
     },
     {
       "id": "integration",
-      "question": "Can it integrate with existing systems?",
-      "answer": "Yes, our system can be integrated with most existing access control hardware through our API."
+      "question": "¿Se puede integrar con sistemas existentes?",
+      "answer": "Sí, nuestro sistema se puede integrar con la mayoría del hardware de control de acceso existente a través de nuestra API."
     }
   ],
   "footer": {
     "sections": [
       {
         "id": "product",
-        "title": "Product",
+        "title": "Producto",
         "links": [
           {
             "id": "features",
-            "label": "Features",
+            "label": "Características",
             "url": "#features"
           },
           {
             "id": "how-it-works",
-            "label": "How It Works",
+            "label": "Cómo Funciona",
             "url": "#how-it-works"
           },
           {
             "id": "demo",
-            "label": "Request Demo",
+            "label": "Solicitar Demo",
             "url": "#contact"
           }
         ]
       },
       {
         "id": "company",
-        "title": "Company",
+        "title": "Compañía",
         "links": [
           {
             "id": "about",
-            "label": "About Us",
+            "label": "Acerca de Nosotros",
             "url": "#about"
           },
           {
             "id": "contact",
-            "label": "Contact",
+            "label": "Contacto",
             "url": "#contact"
           }
         ]
       },
       {
         "id": "resources",
-        "title": "Resources",
+        "title": "Recursos",
         "links": [
           {
             "id": "docs",
-            "label": "Documentation",
+            "label": "Documentación",
             "url": "#docs"
           },
           {
             "id": "support",
-            "label": "Support",
+            "label": "Soporte",
             "url": "#support"
           }
         ]
       }
     ],
-    "bottomText": " 2024 QRoseguro. All rights reserved."
+    "bottomText": " 2024 QRoseguro. Todos los derechos reservados."
   }
 }
