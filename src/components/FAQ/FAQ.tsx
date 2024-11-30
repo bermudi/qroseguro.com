@@ -35,20 +35,21 @@ function FAQItem({ question, answer, isOpen, onToggle }: FAQItemProps) {
 export default function FAQ() {
   const [openId, setOpenId] = useState<string | null>(null);
   const faqs = contentManager.getFAQs();
+  const content = contentManager.getSectionContent('faq');
 
   const handleToggle = (id: string) => {
     setOpenId(openId === id ? null : id);
   };
 
   return (
-    <section className="py-20 bg-white">
-      <div className="max-w-3xl mx-auto px-4 sm:px-6 lg:px-8">
+    <section id="faq" className="py-20 bg-gray-50">
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
           <h2 className="text-3xl font-bold text-gray-900 mb-4">
-            Frequently Asked Questions
+            {content.title}
           </h2>
-          <p className="text-xl text-gray-600">
-            Find answers to common questions about our access management system
+          <p className="text-xl text-gray-600 max-w-2xl mx-auto">
+            {content.subtitle}
           </p>
         </div>
 

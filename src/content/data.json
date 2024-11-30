@@ -215,6 +215,14 @@
     "howItWorks": {
       "title": "Cómo Funciona",
       "subtitle": "Comience con QRoseguro en cuatro sencillos pasos"
+    },
+    "faq": {
+      "title": "Preguntas Frecuentes",
+      "subtitle": "Encuentre respuestas a preguntas comunes sobre nuestro sistema de gestión de acceso"
+    },
+    "contact": {
+      "title": "¿Listo para Asegurar su Comunidad?",
+      "subtitle": "Comience con QRoseguro hoy"
     }
   },
   "faqs": [
