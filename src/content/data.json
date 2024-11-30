@@ -39,6 +39,10 @@
       }
     ]
   },
+  "header": {
+    "signIn": "Iniciar Sesión",
+    "getStarted": "Comenzar"
+  },
   "features": [
     {
       "id": "qr-generation",
@@ -298,6 +302,7 @@
         ]
       }
     ],
-    "bottomText": " 2024 QRoseguro. Todos los derechos reservados."
+    "bottomText": " 2024 QRoseguro. Todos los derechos reservados.",
+    "description": "Gestión segura de acceso para comunidades modernas"
   }
 }

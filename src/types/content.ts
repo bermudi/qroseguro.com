@@ -75,6 +75,10 @@ export interface ContentData {
     ctaText: string;
     ctaSecondaryText: string;
   };
+  header: {
+    signIn: string;
+    getStarted: string;
+  };
   statistics: Statistic[];
   steps: Step[];
   about: {

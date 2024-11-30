@@ -60,6 +60,10 @@ class ContentManager {
     return this.content.nav;
   }
 
+  public getHeader() {
+    return this.content.header;
+  }
+
   public getAbout() {
     return this.content.about;
   }

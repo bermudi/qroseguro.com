@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">QRoseguro</h3>
             <p className="text-gray-400">
-              Secure access management for modern communities
+              {footer.description}
             </p>
           </div>
           {footer.sections.map((section) => (

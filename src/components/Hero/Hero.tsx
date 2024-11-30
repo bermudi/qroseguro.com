@@ -29,7 +29,7 @@ export default function Hero() {
               {heroContent.ctaText}
             </button>
             <button className="px-8 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors font-medium">
-              Learn More
+              {heroContent.ctaSecondaryText}
             </button>
           </div>
         </div>
