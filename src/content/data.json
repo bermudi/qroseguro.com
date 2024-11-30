@@ -1,0 +1,180 @@
+{
+  "hero": {
+    "title": "Secure Access Management for Modern Communities",
+    "subtitle": "Transform your gated community's security with our innovative QR code-based access control system",
+    "ctaText": "Get Started"
+  },
+  "features": [
+    {
+      "id": "qr-generation",
+      "title": "Dynamic QR Codes",
+      "description": "Generate secure, time-sensitive QR codes for visitors and service providers",
+      "icon": "qr-code"
+    },
+    {
+      "id": "real-time",
+      "title": "Real-time Monitoring",
+      "description": "Track all entries and exits in real-time with detailed logging",
+      "icon": "monitor"
+    },
+    {
+      "id": "resident-portal",
+      "title": "Resident Portal",
+      "description": "Easy-to-use interface for residents to manage visitor access",
+      "icon": "users"
+    },
+    {
+      "id": "security",
+      "title": "Enhanced Security",
+      "description": "Advanced encryption and security measures to prevent unauthorized access",
+      "icon": "shield"
+    }
+  ],
+  "statistics": [
+    {
+      "id": "communities",
+      "value": "500+",
+      "label": "Communities",
+      "description": "Trusted by hundreds of gated communities worldwide"
+    },
+    {
+      "id": "residents",
+      "value": "50k+",
+      "label": "Residents",
+      "description": "Serving thousands of satisfied residents"
+    },
+    {
+      "id": "access-events",
+      "value": "1M+",
+      "label": "Access Events",
+      "description": "Securely processed access events monthly"
+    },
+    {
+      "id": "uptime",
+      "value": "99.9%",
+      "label": "Uptime",
+      "description": "Reliable system availability"
+    }
+  ],
+  "steps": [
+    {
+      "id": "register",
+      "title": "Register Your Community",
+      "description": "Set up your community profile and customize access settings",
+      "icon": "building"
+    },
+    {
+      "id": "invite",
+      "title": "Invite Residents",
+      "description": "Add residents and assign them appropriate access levels",
+      "icon": "users"
+    },
+    {
+      "id": "generate",
+      "title": "Generate QR Codes",
+      "description": "Create secure QR codes for visitors and service providers",
+      "icon": "qr-code"
+    },
+    {
+      "id": "monitor",
+      "title": "Monitor Access",
+      "description": "Track and manage all access events through your dashboard",
+      "icon": "activity"
+    }
+  ],
+  "sections": [
+    {
+      "id": "how-it-works",
+      "title": "How It Works",
+      "content": "Our system simplifies community access management through secure QR codes. Residents can generate temporary access codes for visitors, while security personnel can quickly validate entries using our mobile app.",
+      "order": 1
+    },
+    {
+      "id": "benefits",
+      "title": "Benefits",
+      "content": "Enhance security, reduce administrative overhead, and provide a seamless experience for residents and visitors alike. Our system maintains detailed access logs and provides real-time notifications.",
+      "order": 2
+    }
+  ],
+  "faqs": [
+    {
+      "id": "visitor-access",
+      "question": "How do visitors get access?",
+      "answer": "Residents can generate temporary QR codes through their portal and share them with visitors via email or message."
+    },
+    {
+      "id": "security-measures",
+      "question": "How secure is the system?",
+      "answer": "We use advanced encryption and time-based validation to ensure QR codes cannot be duplicated or reused beyond their intended timeframe."
+    },
+    {
+      "id": "integration",
+      "question": "Can it integrate with existing systems?",
+      "answer": "Yes, our system can be integrated with most existing access control hardware through our API."
+    }
+  ],
+  "contact": {
+    "title": "Ready to Secure Your Community?",
+    "subtitle": "Get started with QRoseguro today",
+    "ctaText": "Schedule a Demo",
+    "ctaSubtext": "Or call us at (555) 123-4567"
+  },
+  "footer": {
+    "sections": [
+      {
+        "id": "product",
+        "title": "Product",
+        "links": [
+          {
+            "id": "features",
+            "label": "Features",
+            "url": "#features"
+          },
+          {
+            "id": "pricing",
+            "label": "Pricing",
+            "url": "#pricing"
+          },
+          {
+            "id": "demo",
+            "label": "Request Demo",
+            "url": "#demo"
+          }
+        ]
+      },
+      {
+        "id": "company",
+        "title": "Company",
+        "links": [
+          {
+            "id": "about",
+            "label": "About Us",
+            "url": "#about"
+          },
+          {
+            "id": "contact",
+            "label": "Contact",
+            "url": "#contact"
+          }
+        ]
+      },
+      {
+        "id": "resources",
+        "title": "Resources",
+        "links": [
+          {
+            "id": "docs",
+            "label": "Documentation",
+            "url": "#docs"
+          },
+          {
+            "id": "support",
+            "label": "Support",
+            "url": "#support"
+          }
+        ]
+      }
+    ],
+    "bottomText": " 2024 QRoseguro. All rights reserved."
+  }
+}

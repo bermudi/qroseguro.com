@@ -1,31 +1,21 @@
 import React from 'react';
-import { Smartphone, Camera, Monitor, Settings } from 'lucide-react';
+import { Smartphone, Camera, Monitor, Shield, Users, QrCode } from 'lucide-react';
 import FeatureCard from './FeatureCard';
+import contentManager from '../../utils/contentManager';
 
-const features = [
-  {
-    title: 'Instant Access',
-    description: 'Quick and secure entry using smartphone QR codes',
-    Icon: Smartphone
-  },
-  {
-    title: 'Real-Time Monitoring',
-    description: 'Track and monitor access activities as they happen',
-    Icon: Camera
-  },
-  {
-    title: 'User-Friendly Interface',
-    description: 'Intuitive dashboard for easy management',
-    Icon: Monitor
-  },
-  {
-    title: 'Customizable Permissions',
-    description: 'Fine-tune access levels for different user groups',
-    Icon: Settings
-  }
-];
+const iconMap: { [key: string]: React.ComponentType } = {
+  'qr-code': QrCode,
+  'monitor': Monitor,
+  'users': Users,
+  'shield': Shield
+};
 
 export default function Features() {
+  const features = contentManager.getFeatures().map(feature => ({
+    ...feature,
+    Icon: iconMap[feature.icon] || Monitor
+  }));
+
   return (
     <section id="features" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -40,7 +30,7 @@ export default function Features() {
         
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-8">
           {features.map((feature) => (
-            <FeatureCard key={feature.title} {...feature} />
+            <FeatureCard key={feature.id} {...feature} />
           ))}
         </div>
       </div>
