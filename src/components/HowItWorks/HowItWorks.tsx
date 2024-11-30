@@ -2,7 +2,7 @@ import React from 'react';
 import contentManager from '../../utils/contentManager';
 import { Building, Users, QrCode, Activity } from 'lucide-react';
 
-const iconMap: { [key: string]: React.ComponentType } = {
+const iconMap: { [key: string]: React.ComponentType<{ className?: string }> } = {
   'building': Building,
   'users': Users,
   'qr-code': QrCode,

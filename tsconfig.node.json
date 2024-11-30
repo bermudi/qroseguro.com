@@ -1,7 +1,7 @@
 {
   "compilerOptions": {
     "target": "ES2022",
-    "lib": ["ES2023"],
+    "lib": [],
     "module": "ESNext",
     "skipLibCheck": true,
 
@@ -16,7 +16,10 @@
     "strict": true,
     "noUnusedLocals": true,
     "noUnusedParameters": true,
-    "noFallthroughCasesInSwitch": true
+    "noFallthroughCasesInSwitch": true,
+
+    /* Type definition handling */
+    "types": []  // Explicitly set empty types array
   },
   "include": ["vite.config.ts"]
 }
