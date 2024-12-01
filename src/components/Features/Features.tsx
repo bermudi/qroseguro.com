@@ -1,9 +1,9 @@
 import React from 'react';
-import { Smartphone, Camera, Monitor, Shield, Users, QrCode } from 'lucide-react';
+import { Monitor, Shield, Users, QrCode, LucideIcon } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 import contentManager from '../../utils/contentManager';
 
-const iconMap: { [key: string]: React.ComponentType } = {
+const iconMap: { [key: string]: LucideIcon } = {
   'qr-code': QrCode,
   'monitor': Monitor,
   'users': Users,

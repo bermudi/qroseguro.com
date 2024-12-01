@@ -2,7 +2,7 @@ import React from 'react';
 import { BookOpen, Wrench, HelpCircle, GraduationCap, Mail, Phone, Clock } from 'lucide-react';
 import contentManager from '../../utils/contentManager';
 
-const iconMap: { [key: string]: React.ComponentType } = {
+const iconMap: { [key: string]: React.ComponentType<{ className?: string }> } = {
   'book-open': BookOpen,
   'tool': Wrench,
   'help-circle': HelpCircle,

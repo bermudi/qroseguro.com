@@ -2,7 +2,7 @@ import React from 'react';
 import { Users, Shield, Clock } from 'lucide-react';
 import contentManager from '../../utils/contentManager';
 
-const iconMap: { [key: string]: React.ComponentType } = {
+const iconMap: { [key: string]: React.ComponentType<{ className?: string }> } = {
   'users': Users,
   'shield': Shield,
   'clock': Clock,
