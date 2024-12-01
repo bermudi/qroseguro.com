@@ -1,7 +1,7 @@
 {
   "hero": {
     "title": "Gestión de Acceso Seguro para Comunidades Modernas",
-    "subtitle": "Transforme la seguridad de su comunidad cerrada con nuestro innovador sistema de control de acceso basado en códigos QR",
+    "subtitle": "Transforma la seguridad de tu comunidad privada con nuestro innovador sistema de control de acceso basado en códigos QR",
     "ctaText": "Comenzar",
     "ctaSecondaryText": "Aprender Más"
   },
@@ -40,6 +40,7 @@
     ]
   },
   "header": {
+    "title": "QRoseguro",
     "signIn": "Iniciar Sesión",
     "getStarted": "Comenzar"
   },
@@ -47,13 +48,13 @@
     {
       "id": "qr-generation",
       "title": "Códigos QR Dinámicos",
-      "description": "Genere códigos QR seguros y con límite de tiempo para visitantes y proveedores de servicios",
+      "description": "Genera códigos QR seguros y con límite de tiempo para visitantes y proveedores de servicios",
       "icon": "qr-code"
     },
     {
       "id": "real-time",
       "title": "Monitoreo en Tiempo Real",
-      "description": "Rastree todas las entradas y salidas en tiempo real con registro detallado",
+      "description": "Rastrea todas las entradas y salidas en tiempo real con registro detallado",
       "icon": "monitor"
     },
     {
@@ -99,19 +100,19 @@
     {
       "id": "register",
       "title": "Registre su Comunidad",
-      "description": "Configure el perfil de su comunidad y personalice la configuración de acceso",
+      "description": "Configura el perfil de tu privada y personalica la configuración de acceso",
       "icon": "building"
     },
     {
       "id": "invite",
       "title": "Invitar Residentes",
-      "description": "Agregue residentes y asígneles los niveles de acceso apropiados",
+      "description": "Agregua residentes y asígnales los niveles de acceso apropiados",
       "icon": "users"
     },
     {
       "id": "generate",
       "title": "Generar Códigos QR",
-      "description": "Cree códigos QR seguros para visitantes y proveedores de servicios",
+      "description": "Crea códigos QR seguros para visitantes y proveedores de servicios",
       "icon": "qr-code"
     },
     {
@@ -185,15 +186,15 @@
     }
   },
   "contact": {
-    "title": "¿Listo para Asegurar su Comunidad?",
-    "subtitle": "Comience con QRoseguro hoy",
-    "ctaText": "Programar una Demo",
-    "ctaSubtext": "O llámenos al (555) 123-4567",
+    "title": "¿Listo para Asegurar tu privada?",
+    "subtitle": "Comienca con QRoseguro hoy",
+    "ctaText": "Programar un Demo",
+    "ctaSubtext": "O llámanos al (555) 123-4567",
     "form": {
-      "namePlaceholder": "Su Nombre",
-      "emailPlaceholder": "Su Correo Electrónico",
+      "namePlaceholder": "Tu Nombre",
+      "emailPlaceholder": "Tu Correo Electrónico",
       "subjectPlaceholder": "Asunto",
-      "messagePlaceholder": "Su Mensaje",
+      "messagePlaceholder": "Tu Mensaje",
       "submitText": "Enviar Mensaje"
     }
   },
@@ -201,20 +202,20 @@
     {
       "id": "how-it-works",
       "title": "Cómo Funciona",
-      "content": "Nuestro sistema simplifica la gestión del acceso a la comunidad a través de códigos QR seguros. Los residentes pueden generar códigos de acceso temporales para los visitantes, mientras que el personal de seguridad puede validar rápidamente las entradas utilizando nuestra aplicación móvil.",
+      "content": "Nuestro sistema simplifica la gestión del acceso a comunidades privadas a través de códigos QR seguros. Los residentes pueden generar códigos de acceso temporales para los visitantes, mientras que el personal de seguridad puede validar rápidamente las entradas utilizando nuestra aplicación móvil.",
       "order": 1
     },
     {
       "id": "benefits",
       "title": "Beneficios",
-      "content": "Mejore la seguridad, reduzca la sobrecarga administrativa y proporcione una experiencia fluida para residentes y visitantes por igual. Nuestro sistema mantiene registros detallados de acceso y proporciona notificaciones en tiempo real.",
+      "content": "Mejora la seguridad, reduce la sobrecarga administrativa y proporciona una experiencia fluida para residentes y visitantes por igual. Nuestro sistema mantiene registros detallados de acceso y proporciona notificaciones en tiempo real.",
       "order": 2
     }
   ],
   "sectionContent": {
     "features": {
       "title": "Increíbles funciones para el control de acceso moderno",
-      "subtitle": "Todo lo que necesita para gestionar el acceso a su comunidad de forma eficiente y segura"
+      "subtitle": "Todo lo que necesitas para gestionar el acceso a su privada de forma eficiente y segura"
     },
     "howItWorks": {
       "title": "Cómo Funciona",

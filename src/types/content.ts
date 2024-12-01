@@ -76,6 +76,7 @@ export interface ContentData {
     ctaSecondaryText: string;
   };
   header: {
+    title: string;
     signIn: string;
     getStarted: string;
   };
