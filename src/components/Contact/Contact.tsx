@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Send } from 'lucide-react';
 import contentManager from '../../utils/contentManager';
 

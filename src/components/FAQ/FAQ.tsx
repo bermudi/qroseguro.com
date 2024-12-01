@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
 import contentManager from '../../utils/contentManager';
 import { ChevronDown, ChevronUp } from 'lucide-react';
 

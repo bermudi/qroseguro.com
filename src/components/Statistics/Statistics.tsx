@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import contentManager from '../../utils/contentManager';
 
 export default function Statistics() {

@@ -1,14 +1,14 @@
-import React from 'react';
+// import React from 'react';
 import contentManager from '../../utils/contentManager';
 
-const links = [
-  { name: 'Home', href: '#' },
-  { name: 'Features', href: '#features' },
-  { name: 'How It Works', href: '#how-it-works' },
-  { name: 'About Us', href: '#about' },
-  { name: 'Support', href: '#support' },
-  { name: 'Contact', href: '#contact' },
-];
+// const links = [
+//   { name: 'Home', href: '#' },
+//   { name: 'Features', href: '#features' },
+//   { name: 'How It Works', href: '#how-it-works' },
+//   { name: 'About Us', href: '#about' },
+//   { name: 'Support', href: '#support' },
+//   { name: 'Contact', href: '#contact' },
+// ];
 
 export default function NavLinks() {
   const { links: navLinks } = contentManager.getNav();

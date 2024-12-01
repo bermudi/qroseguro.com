@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import contentManager from '../../utils/contentManager';
 
 export default function Hero() {
@@ -43,8 +43,8 @@ export default function Hero() {
 
       {/* QR Code Overlay Container */}
       <div className="absolute bottom-[8%] right-[15%] md:bottom-[10%] md:right-[15%] z-20 w-24 md:w-40 lg:w-48 h-24 md:h-40 lg:h-48 bg-white/90 rounded-lg shadow-lg flex items-center justify-center">
-        <img 
-          src="/imgs/qr-code-styling.png" 
+        <img
+          src="/imgs/qr-code-styling.png"
           alt="QR Code"
           className="w-full h-full object-contain p-2"
         />

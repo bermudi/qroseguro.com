@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import contentManager from '../../utils/contentManager';
 
 export default function Footer() {
@@ -11,7 +11,7 @@ export default function Footer() {
           <div>
             <h3 className="text-2xl font-bold text-white mb-4">QRoseguro</h3>
             <p className="text-gray-400">
-              {footer.description}
+              Gestión segura de acceso para comunidades modernas
             </p>
           </div>
           {footer.sections.map((section) => (
@@ -37,6 +37,9 @@ export default function Footer() {
         <div className="border-t border-gray-800 pt-8">
           <p className="text-center text-gray-400">
             {footer.bottomText}
+          </p>
+          <p className="text-center text-gray-400 mt-2">
+            Made by <a href="https://bermudi.dev" className="hover:text-white transition-colors">bermudi.dev</a>
           </p>
         </div>
       </div>
