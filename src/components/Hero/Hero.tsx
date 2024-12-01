@@ -24,7 +24,7 @@ export default function Hero() {
           <p className="text-xl text-gray-200 mb-8">
             {heroContent.subtitle}
           </p>
-          <div className="flex space-x-4">
+          <div className="flex space-x-4 relative z-20">
             <a
               href="#contact"
               className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
@@ -42,7 +42,7 @@ export default function Hero() {
       </div>
 
       {/* QR Code Overlay Container */}
-      <div className="absolute bottom-[8%] right-[15%] md:bottom-[10%] md:right-[15%] z-20 w-24 md:w-40 lg:w-48 h-24 md:h-40 lg:h-48 bg-white/90 rounded-lg shadow-lg flex items-center justify-center">
+      <div className="absolute bottom-[5%] right-[5%] lg:bottom-[10%] lg:right-[10%] z-10 w-24 md:w-32 lg:w-40 h-24 md:h-32 lg:h-40 bg-white/90 rounded-lg shadow-lg flex items-center justify-center transform translate-y-0 md:translate-y-0">
         <img
           src="/imgs/qr-code-styling.png"
           alt="QR Code"

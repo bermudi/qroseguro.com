@@ -1,4 +1,4 @@
-import React from 'react';
+// import React from 'react';
 import { Monitor, Shield, Users, QrCode, LucideIcon } from 'lucide-react';
 import FeatureCard from './FeatureCard';
 import contentManager from '../../utils/contentManager';
