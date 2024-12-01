@@ -25,12 +25,18 @@ export default function Hero() {
             {heroContent.subtitle}
           </p>
           <div className="flex space-x-4">
-            <button className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium">
+            <a
+              href="#contact"
+              className="px-8 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition-colors font-medium"
+            >
               {heroContent.ctaText}
-            </button>
-            <button className="px-8 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors font-medium">
+            </a>
+            <a
+              href="#how-it-works"
+              className="px-8 py-3 bg-white text-blue-600 rounded-lg hover:bg-gray-100 transition-colors font-medium"
+            >
               {heroContent.ctaSecondaryText}
-            </button>
+            </a>
           </div>
         </div>
       </div>
